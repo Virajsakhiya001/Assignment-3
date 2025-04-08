@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 14px 20px;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+            font-weight: bold;
+            border-radius: 5px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        @media (max-width: 600px) {
+            .navbar {
+                flex-direction: column;
+            }
+            .navbar {
+                background-color:tomato;
+                
+            }
+            .navbar a {
+                border: 1px solid black;
+                border-radius: 5px;
+                background-color: #575757;
+            }
+            .navbar a:hover {
+                background-color: rgb(123, 187, 119);
+                font-weight: bold;
+                border-radius: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact us</a>
+    </nav>
+
+</body>
+</html>

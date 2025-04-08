@@ -1,0 +1,65 @@
+table {
+            text-align: center;
+            width: 60%;
+            justify-content: center;
+            align-items: center;
+            height: 40vh;
+            margin: 20px auto;
+    
+}
+.A {
+    height: 0;
+    width: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.SUB1 {
+    color: blue;
+    font-weight: bold;
+}
+
+.SUB2 {
+    color: rgb(222, 28, 167);
+    font-weight: bold;
+}
+
+.SUB3 {
+    color: purple;
+    font-weight: bold;
+}
+
+.SWA {
+    color: red;
+    font-weight: bold;
+}
+
+.SUB4 {
+    color: green;
+    font-weight: bold;
+}
+
+.SUB5 {
+    color: red;
+    font-weight: bold;
+}
+
+.CC{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.LAB {
+    font-weight: bold;
+    color: black;
+}
+
+.SEMINAR {
+    font-weight: bold;
+}

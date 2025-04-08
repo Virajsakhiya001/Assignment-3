@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 5px;
+    width: 60vw;
+    height: 60vh;
+    background-color: white;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.item-1 {
+    grid-column:1/2 ;
+    
+    background-color: #00aaff;
+}
+
+.item-2 {
+    grid-column: 2/3;
+    
+    background-color: #ff6b50;
+}
+.item-3 {
+    grid-column: 3/4;
+ 
+    background-color: #4169e1;
+}
+.item-4 {
+    grid-column: 1/2;
+   
+    background-color: #ffd700;
+}
+.item-5 {
+    grid-column: 2/3;
+    
+    background-color: #8a2be2;
+}
+.item-6 {
+    grid-column: 3/4;
+   
+    background-color: #32cd32;
+}
+.item-7 {
+    grid-column: 1/2;
+   
+    background-color: #ff7f50;
+}
+
+.item-8 {
+    grid-column: 2/3;
+   
+    background-color: #20b2aa;
+}
+
+.item-9 {
+    grid-column: 3/4;
+    
+    background-color: #8b0000;
+}
+
+@media (max-width:658px) {
+    .item-1 {
+        background-color: #ff6b50;
+    }
+    
+    .item-2 {
+        background-color: #8971d8;
+    }
+    .item-3 {
+        background-color: #c81ec8;
+    }
+    .item-4 {
+        background-color: #ed9609;
+    }
+    .item-5 { 
+        background-color: #ff8b61;
+    }
+    .item-6 {
+        background-color: #4e7e4e;
+    }
+    .item-7 {
+        background-color: #43cfca;
+    }
+    
+    .item-8 {
+        background-color: #a94997;
+    }
+    
+    .item-9 {
+        background-color: #eb4a4a;
+    }
+}
